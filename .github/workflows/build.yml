@@ -1,6 +1,7 @@
 name: Build sub target
 
 on:
+  workflow_dispatch: # Put here!!
   workflow_call:
     inputs:
       target:
